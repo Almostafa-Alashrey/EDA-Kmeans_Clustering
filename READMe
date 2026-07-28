@@ -1,0 +1,12 @@
+The objective of this analysis is twofold:
+1. **EDA & Visualization:** Inspect, clean, and analyze statistical relationships across body measurements (`bill_length_mm`, `bill_depth_mm`, `flipper_length_mm`, and `body_mass_g`).
+2. **Unsupervised Machine Learning:** Use K-Means clustering (K=3) on scaled numerical features to see how effectively the algorithm groups penguins into clusters matching their actual species without using class labels.
+
+---
+
+## Tech Stack & Libraries
+
+* **Python**
+* **Pandas** – Data manipulation & aggregation
+* **Matplotlib & Seaborn** – Data visualization & distribution plots
+* **Scikit-Learn** – Feature scaling (`StandardScaler`) & clustering (`KMeans`)
